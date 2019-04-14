@@ -65,7 +65,7 @@ class Owner
       species.clear
     end
   end
-      
+
 
 
 end
