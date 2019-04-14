@@ -12,8 +12,8 @@ class Owner
   end
 
   def pets
-  @pets
-end
+   @pets
+  end
 
   def self.all
     @@all
