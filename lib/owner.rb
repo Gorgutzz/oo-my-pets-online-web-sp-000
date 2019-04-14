@@ -5,10 +5,10 @@ class Owner
 
   @@all = []
 
-  def initialize(species)
-    @species = species
-    @@all << self
-    @pets = {:fishes => [], :dogs => [], :cats => []}
+  def initialize(species, pets = {:fishes => [], :dogs => [], :cats => []})
+  @species = species
+  @pets = pets
+  @@all << self
   end
 
   def self.all
