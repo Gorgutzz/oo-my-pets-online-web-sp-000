@@ -12,7 +12,7 @@ class Owner
   end
 
   def pets
-   @pets
+    @pets
   end
 
   def self.all
